@@ -2,18 +2,27 @@
 
 :root {
   --background: #f7f6f4;
+  --dark-green: #00373E;
+  --bg-hero: #f9e6d0;
+  --button-yellow: #efc01d;
+  --button-aqua: #4ccbbb;
+  --button-pink: #f39cac;
 }
 
 @theme inline {
   --color-background: var(--background);
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
   }
-}
+} */
 
 body {
   background: var(--background);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
