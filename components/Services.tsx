@@ -3,7 +3,7 @@ import Button from "./ui/button";
 
 const Services = () => {
   return (
-    <div className=" bg-yellow-300 mt-[150px] flex flex-col items-center">
+    <div className="mt-[150px] flex flex-col items-center">
       <div className="flex flex-col items-center">
         <div className="leading-[17px] tracking-[0.5px] font-medium text-[14px]">
           SERVICES

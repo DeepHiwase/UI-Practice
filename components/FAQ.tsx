@@ -16,7 +16,7 @@ const FAQ = () => {
           Find answers to common questions about our services, therapy, and mental well-being.
           </div>
         </div>
-        <div className="w-[570px] h-[602px] bg-teal-300 mt-[50px] relative">
+        <div className="w-[570px] h-[602px] mt-[50px] relative">
           <div className="absolute bottom-0 left-0 right-0 rounded-[60px] h-[385px] bg-[var(--bg-hero)] z-10"></div>
           <Image src={'/faq.svg'} alt="Image 7" width={376} height={574} className="absolute bottom-0 left-[70px] z-20" />
         </div>

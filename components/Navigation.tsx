@@ -2,7 +2,7 @@ import Link from "next/link"
 
 const Navigation = () => {
   return (
-    <div className="bg-amber-500 mt-10 flex justify-between text-[var(--dark-green)]">
+    <div className="mt-10 flex justify-between text-[var(--dark-green)]">
       <div className="flex-1 flex justify-between items-center">
       <Link href={'/'} className="text-normal block" >Home</Link>
       <Link href={'/'} className="text-normal block" >About</Link>

@@ -3,7 +3,7 @@ import Button from "./ui/button";
 
 const About = () => {
   return (
-    <div className="bg-green-400 mt-[100px] mx-[50px] flex justify-between">
+    <div className="mt-[100px] mx-[50px] flex justify-between">
 
       <div className="w-[476px] my-auto flex flex-col gap-[37px]">
         <div className="font-medium text-[14px] tracking-[0.5px] text-[var(--dark-green)]">HOW IT WORKS</div>

@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const Testimonials = () => {
   return (
-    <div className="bg-red-500 mt-[150px] ml-[50px] flex">
+    <div className="mt-[150px] ml-[50px] flex">
       <div>
         <div className="font-medium text-[14px] leading-[17px] tracking-[0.5px] text-[var(--dark-green)]">
         TESTIMONIALS
