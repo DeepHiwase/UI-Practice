@@ -1,5 +1,8 @@
 import About from "@/components/About";
 import Community from "@/components/Community";
+import Contacts from "@/components/Contacts";
+import FAQ from "@/components/FAQ";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Navigation from "@/components/Navigation";
 import Partners from "@/components/Partners";
@@ -19,6 +22,9 @@ export default function Home() {
       <Partners />
       <Resources />
       <Community />
+      <FAQ />
+      <Contacts />
+      <Footer />
     </div>
   );
 }

@@ -8,7 +8,7 @@ const bricolageGrotesque = Bricolage_Grotesque({
 
 export const metadata: Metadata = {
   title: "Solus | Landing page",
-  description: "Solus - Mental Health & Wellness Website",
+  description: "Solus - Mental Health & Wellness Website"
 };
 
 export default function RootLayout({
@@ -18,6 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <link rel="shortcut icon" href="/solusfevicon.ico" />
       <body
         className={`${bricolageGrotesque.className} antialiased`}
       >
